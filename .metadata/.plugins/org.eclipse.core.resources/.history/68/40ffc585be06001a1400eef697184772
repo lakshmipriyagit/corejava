@@ -1,0 +1,8 @@
+
+public class division extends Exception
+{
+	public division(int a,int b) {
+		super(message);
+
+	}
+}

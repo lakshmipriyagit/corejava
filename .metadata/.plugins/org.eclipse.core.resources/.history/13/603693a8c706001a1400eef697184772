@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class trycatchfinally {
+	
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	
+	String a=sc.next();
+	try
+	{
+		int 
+		System.out.println(a[0]/a[1]);
+	}
+	catch(ArithmeticException e)
+	{
+		
+	}
+}
+}

@@ -1,0 +1,15 @@
+
+public class wrapper {
+static void change(int i)
+{
+	System.out.println("int");
+}
+static void change(Byte i)
+{
+	System.out.println("B");
+}
+
+public static void main(String[] args) {
+	change(123);
+}
+}

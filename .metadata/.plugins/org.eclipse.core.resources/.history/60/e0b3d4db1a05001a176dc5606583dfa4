@@ -1,0 +1,17 @@
+
+public class edemo {
+static String s;
+	public static void main(String[] args) {
+		System.out.println("hi...");
+		try{
+			System.out.println(s.length());
+		}
+		catch(NullPointerException n)
+		{
+			System.out.println("string is not initialized");
+		}
+		System.out.println("hello...");
+
+	}
+
+}

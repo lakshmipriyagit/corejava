@@ -1,0 +1,8 @@
+
+public class nameage {
+	String a;int
+	public nameage(String a)
+	{
+	super();
+	}
+}

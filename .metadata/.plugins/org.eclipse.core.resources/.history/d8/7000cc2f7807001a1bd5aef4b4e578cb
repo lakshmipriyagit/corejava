@@ -1,0 +1,16 @@
+
+public class checked1lms implements Runnable{
+	char c[]={'h','e','l','l','o'};
+	public void run()
+	{
+		int i=0;
+		while(i<5)
+		{
+			System.out.println(c[i++]);
+		}
+	}
+public static void main(String[] args) {
+	Thread t=new Thread(new checked1lms());
+	t.start();
+}
+}

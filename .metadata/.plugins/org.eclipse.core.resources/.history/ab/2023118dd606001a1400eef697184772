@@ -1,0 +1,12 @@
+
+public class immute {
+
+	public static void main(String[] args) {
+		Integer x=10;
+		change(x);
+		
+		System.out.println();
+		
+	}
+
+}

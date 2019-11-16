@@ -1,0 +1,21 @@
+
+public class nullexception {
+
+	public static void main(String[] args) {
+		try
+		{
+			System.out.println(args.length);
+			System.out.println(args[0]);
+		}
+		catch(NumberFormatException e)
+		{
+			System.out.println("NumberFormatException");
+		}
+		catch(ArrayIndexOutOfBoundsException p)
+		{
+			System.out.println("ArrayIndexOutOfBoundsException");
+		}
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public class nameage extends Exception
+{
+	String a;int b;
+	public nameage(String message)
+	{
+	super(message);
+	}
+}

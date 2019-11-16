@@ -1,0 +1,15 @@
+
+public class wrapper {
+static void change(int i)
+{
+	System.out.println();
+}
+static void change( i)
+{
+	System.out.println();
+}
+
+public static void main(String[] args) {
+	
+}
+}

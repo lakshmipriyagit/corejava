@@ -1,0 +1,10 @@
+
+public class varlengargument {
+public static void main(String[] args) {
+	
+}
+static void change(int...a)
+{
+	for(int i=0;i)
+}
+}

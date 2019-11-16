@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="wipro.A"/>
+<fullyQualifiedTypeName name="org.animals.lion"/>
+<fullyQualifiedTypeName name="org.animals.Elephant"/>
+<fullyQualifiedTypeName name="stock.inventory"/>
+<fullyQualifiedTypeName name="material.laptops"/>
+<fullyQualifiedTypeName name="hcl.first"/>
+<fullyQualifiedTypeName name="javax.security.sasl.SaslClient"/>
+<fullyQualifiedTypeName name="javax.xml.soap.SAAJResult"/>
+<fullyQualifiedTypeName name="string"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+<fullyQualifiedTypeName name="car"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.CTX_RESTRICT_SCOPE"/>
+<fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+<fullyQualifiedTypeName name="nestedclass.inner"/>
+<fullyQualifiedTypeName name="nullpointer"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="division"/>
+<fullyQualifiedTypeName name="nameage"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

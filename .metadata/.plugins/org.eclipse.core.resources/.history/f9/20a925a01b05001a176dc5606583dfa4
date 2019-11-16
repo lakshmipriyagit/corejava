@@ -1,0 +1,18 @@
+
+public class edemo {
+
+	public static void main(String[] args) {
+		System.out.println("hi...");
+		try{
+			String s=args[0];
+			System.out.println(s.length());
+		}
+		catch(NullPointerException n)
+		{
+			System.out.println("null pointer exception...");
+		}
+		System.out.println("hello...");
+
+	}
+
+}

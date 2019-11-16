@@ -1,0 +1,8 @@
+
+public class division extends 
+{
+	public division(int a,int b) {
+		super(message);
+
+	}
+}

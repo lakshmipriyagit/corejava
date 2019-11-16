@@ -1,0 +1,7 @@
+
+public class division {
+	public division(String message) {
+		super(message);
+
+	}
+}

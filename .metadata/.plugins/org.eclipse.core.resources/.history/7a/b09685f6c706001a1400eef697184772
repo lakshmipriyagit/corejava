@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class trycatchfinally {
+	
+	public static void main(String[] args) {
+		System.out.println("ente");
+	Scanner sc=new Scanner(System.in);
+	String a=sc.next();
+	String b=sc.next();
+	try
+	{
+		int x=Integer.parseInt(a);
+		int y=Integer.parseInt(b);
+		System.out.println(x/y);
+	}
+	catch(ArithmeticException e)
+	{
+		System.out.println(e.getClass());
+	}
+	finally
+	{
+		System.out.println("Inside finally block");
+	}
+}
+}

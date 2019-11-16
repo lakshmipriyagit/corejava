@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class hand1 {
+
+	public static void main(String[] args) {
+		int n,sum=0;
+		float avg=0;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the no.of elements");
+		n=sc.nextInt();
+		
+
+	}
+
+}

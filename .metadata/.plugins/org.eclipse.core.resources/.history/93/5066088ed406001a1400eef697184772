@@ -1,0 +1,7 @@
+
+public class wrapper {
+static void change(int i)
+{
+	System.out.println();
+}
+}

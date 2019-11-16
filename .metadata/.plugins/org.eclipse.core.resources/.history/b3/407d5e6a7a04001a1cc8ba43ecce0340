@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class handson5 {
+
+	public static void main(String[] args) {
+		System.out.println("enter first string....");
+		Scanner sc=new Scanner(System.in);
+		String s1=sc.next();
+		System.out.println("enter second string....");
+		String s1=sc.next();
+
+	}
+
+}

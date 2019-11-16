@@ -1,0 +1,13 @@
+
+public class throwdemo {
+	void disp(int i)
+	{
+		if(i<18)
+			throw new myexception("age should not be less than 18")
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

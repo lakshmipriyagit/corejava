@@ -1,0 +1,9 @@
+
+public class checkwrap {
+public static void main(String[] args) {
+	Integer x=10;
+	Integer y=20;
+	exchange(x,y);
+}
+ststic void exchange (Integeri,Integer j)
+}

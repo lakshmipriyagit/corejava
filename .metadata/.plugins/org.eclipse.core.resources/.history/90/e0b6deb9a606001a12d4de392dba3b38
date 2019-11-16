@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class nullpointer {
+	public static void main(String[] args) {
+	
+	Scanner sc=new Scanner(System.in);
+	String s1=sc.next();
+	try
+	{
+		System.out.println(s1);
+	}
+	catch(NullPointerException e)
+	{
+		System.out.println(e.getClass());
+	}
+	System.out.println(s1);
+}
+}

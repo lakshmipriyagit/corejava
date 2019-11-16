@@ -1,0 +1,12 @@
+
+public class arthematic {
+	void disp(int a,int b)throws division
+	{
+		if()
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

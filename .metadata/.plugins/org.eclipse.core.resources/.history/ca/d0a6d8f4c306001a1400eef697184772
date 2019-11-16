@@ -1,0 +1,8 @@
+
+public class nameage extends{
+	String a;int b;
+	public nameage(String message)
+	{
+	super(message);
+	}
+}

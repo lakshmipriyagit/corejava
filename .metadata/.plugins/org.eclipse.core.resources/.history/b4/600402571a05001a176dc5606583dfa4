@@ -1,0 +1,9 @@
+
+public class edemo {
+static String s;
+	public static void main(String[] args) {
+		
+
+	}
+
+}

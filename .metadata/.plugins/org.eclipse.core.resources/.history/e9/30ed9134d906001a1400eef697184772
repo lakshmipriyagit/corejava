@@ -1,0 +1,7 @@
+
+public class checkwrap {
+public static void main(String[] args) {
+	Integer x=10;
+	
+}
+}

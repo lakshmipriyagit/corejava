@@ -1,0 +1,21 @@
+
+public class throw1 
+{
+	void disp(String a,int b)throws nameage
+	{
+		if(b>=18&&b<60)
+		{
+			throw new nameage("the age is matched");
+			System.out.println(a);
+		}
+		else
+		{
+			System.out.println();
+		}
+	}
+public static void main(String[] args) throws nameage
+{
+throw1 ob=new throw1();
+ob.disp("lucky", 18);
+}
+}

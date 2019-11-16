@@ -1,0 +1,7 @@
+
+public class division {
+	public myexception(String message) {
+		super(message);
+
+	}
+}

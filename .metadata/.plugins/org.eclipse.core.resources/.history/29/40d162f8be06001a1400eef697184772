@@ -1,0 +1,11 @@
+
+public class arthematic {
+	void disp(int a,int b)throws myexception
+	{
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
