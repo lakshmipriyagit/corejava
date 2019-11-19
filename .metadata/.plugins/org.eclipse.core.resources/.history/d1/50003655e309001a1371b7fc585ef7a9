@@ -1,0 +1,16 @@
+
+public class Main {
+	
+	public static void main(String[] args) {
+		System.out.println("Enter an i");
+		Integer ob=new Integer(540);
+	System.out.println(ob.toBinaryString(540));
+	System.out.println(ob.toHexString(540));
+	System.out.println(ob.toOctalString(540));
+	System.out.println(ob.byteValue());
+	System.out.println(ob.shortValue());
+	System.out.println(ob.longValue());
+	System.out.println(ob.doubleValue());
+	System.out.println(ob.doubleValue());
+}
+}

@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		Double HRA, DA,Gross;
+		int x=sc.nextInt();
+		if(x<15000)
+		{
+	
+			HRA=(double)((15/100)*x);
+			DA=(double)((90/100)*x);
+			Gross=(double)(x+HRA+DA);
+			System.out.println(Gross);
+		}
+		if(x>=15000)
+		{
+			HRA=(double)(5000);
+			DA=(double)((98/100)*x);
+			Gross=(double)(x+HRA+DA);
+			System.out.println(Gross);
+		}
+	}
+
+}

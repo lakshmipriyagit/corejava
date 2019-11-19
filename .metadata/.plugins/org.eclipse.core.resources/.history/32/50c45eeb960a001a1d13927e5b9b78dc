@@ -1,0 +1,8 @@
+
+public class employee {
+	int empNo;
+	String empName;
+public static void main(String[] args) {
+	
+}
+}

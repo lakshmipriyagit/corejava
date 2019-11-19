@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		System.out.println("Enter an integer");
+		Scanner sc=new Scanner(System.in);
+		int x=sc.nextInt();
+		Integer ob=new Integer(x);
+	System.out.println("The binary equivalant of "+ob+"is "+ob.toBinaryString(ob));
+	System.out.println("The hexadecimal equivalant of "+ob+"is "+ob.toHexString(ob)+"c");
+	System.out.println("The octal equivalant of "+ob+"is "+ob.toOctalString(ob));
+	System.out.println("Byte value of "+ob+ob.byteValue());
+	System.out.println(ob.shortValue());
+	System.out.println(ob.longValue());
+	System.out.println(ob.doubleValue());
+	
+}
+}

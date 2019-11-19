@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class Main {
+public static void main(String[] args) {
+	employee e1=new employee();
+	e1.setEmpName("lucky");
+	e1.setEmpNo(1);
+	employee e2=new employee();
+	e1.setEmpName("priya");
+	e1.setEmpNo(2);
+	
+	Set<employee>ob=new TreeSet();
+	ob.add(e1);
+	ob.add(e2);
+	Iterator <employee>it=ob.iterator();
+	while(it.hasNext())
+	{
+		employee x=it.next();
+		System.out.println(x.getempNo()+" "x.getempName());
+	}
+}
+}

@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+
+public class arraylist {
+
+	public static void main(String[] args) {
+		ArrayList ob= new ArrayList();
+							//ob.add(new Integer(10));// Integer x=new Integer();
+		ob.add(9);						//ob.add(x);
+		ob.add(5.75);
+		ob.add("Lucky");
+		ob.add(null);
+		System.out.println(ob.size());
+		for(int i=0;i<ob.size();i++)
+		{
+			System.out.println(ob.get(i));
+		}
+
+	}
+
+}

@@ -1,0 +1,8 @@
+import java.util.HashMap;
+
+public class map {
+public static void main(String[] args) {
+	map ob=new HashMap();
+	ob.put(1,"A");
+}
+}

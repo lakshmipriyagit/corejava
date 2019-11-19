@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class Main {
+public static void main(String[] args) {
+	//Set ob=new LinkedHashSet();
+	Set<Integer>ob=new TreeSet();
+	ob.add(10);
+	boolean b=ob.add(5);
+	//System.out.println(b);
+	//ob.add("ABC");
+	ob.add(55);
+	ob.add(89);
+	Iterator it=ob.iterator();
+	while(it.hasNext())
+	{
+		System.out.println(it.next());
+	}
+}
+}

@@ -1,0 +1,20 @@
+
+public class employee {
+	int EmpNo;
+	String EmpName;
+public int getEmpNo() {
+		return EmpNo;
+	}
+	public void setEmpNo(int empNo) {
+		this.EmpNo = empNo;
+	}
+	public String getEmpName() {
+		return EmpName;
+	}
+	public void setEmpName(String empName) {
+		this.EmpName = empName;
+	}
+public static void main(String[] args) {
+	
+}
+}

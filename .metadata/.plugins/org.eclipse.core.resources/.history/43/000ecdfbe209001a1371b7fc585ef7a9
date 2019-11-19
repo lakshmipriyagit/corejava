@@ -1,0 +1,12 @@
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Integer ob=new Integer(540);
+	System.out.println(ob.toBinaryString(540));
+	System.out.println(ob.toHexString(540));
+	System.out.println(ob.toOctalString(540));
+	System.out.println(ob.);
+	System.out.println(ob.doubleValue());
+}
+}

@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class arraylist {
+
+	public static void main(String[] args) {
+		ArrayList ob= new ArrayList();
+							//ob.add(new Integer(10));// Integer x=new Integer();
+		ob.add(9);
+		System.out.println(ob.size());//ob.add(x);
+		/*ob.add(5.75);
+		ob.add("Lucky");
+		ob.add(null);
+		
+		for(int i=0;i<ob.size();i++)
+		{
+			System.out.println(ob.get(i));
+		}*/
+		Iterator it=ob.iterator();
+		while(it.hasNext())
+		{
+			int i=(Integer)it.next();
+			System.out.println(i);
+		}
+		
+
+	}
+
+}

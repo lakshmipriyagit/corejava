@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+public class arraylist {
+
+	public static void main(String[] args) {
+		ArrayList ob= new ArrayList();
+		ob.add(new Integer(10));// Integer x=new Integer();
+									//ob.add(x);
+		ob.add(9);
+		ob.add(5.75);
+		ob.add("Lucky");
+		ob.add(null);
+
+	}
+
+}

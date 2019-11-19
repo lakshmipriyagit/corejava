@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class MapDemo {
+
+	public static void main(String[] args) {
+	Map ob=new TreeMap();
+	ob.put(11,"c");
+	ob.put(1,"A");
+	ob.put(2,"B");
+	ob.put(10,"D");
+	ob.put(10,"E");
+	Set s=ob.entrySet();
+	Iterator it=s.iterator();
+	while(it.hasNext())
+	{
+		Object o=it.next();
+		System.out.println(o+" "+ob.get(0));
+	}
+}
+}

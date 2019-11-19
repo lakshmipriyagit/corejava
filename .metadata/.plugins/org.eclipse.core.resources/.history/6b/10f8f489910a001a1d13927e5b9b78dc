@@ -1,0 +1,11 @@
+import java.util.Set;
+
+public class Main {
+public static void main(String[] args) {
+	Set ob=new HashSet();
+	ob.add(10);
+	ob.add("ABC");
+	
+	
+}
+}

@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class Map {
+
+	public static void main(String[] args) {
+	Map ob=new HashMap();
+	ob.put(1,"A");
+	ob.put(2,"B");
+	Set s=ob.entrySet();
+	Iterator it=s.iterator();
+	while(it.hasNext())
+	{
+		System.out.println(it.next());
+	}
+}
+}
